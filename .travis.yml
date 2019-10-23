@@ -10,7 +10,7 @@ compiler:
 
 # Build steps
 script:
-  - make
+  - make all
 
 notifications:
   email:
