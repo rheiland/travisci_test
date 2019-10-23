@@ -1,0 +1,20 @@
+# Enable C++ support
+#language: cpp
+language: c
+
+os: linux
+
+# Compiler selection
+compiler:
+  - gcc
+
+# Build steps
+script:
+  - make
+
+notifications:
+  email:
+    recipients:
+      - randy.heiland@gmail.com
+    on_success: always # default: change  (always, never)
+    on_failure: always # default: always
