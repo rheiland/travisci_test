@@ -10,7 +10,7 @@ compiler:
 
 # Build steps
 script:
-  - make all
+  - gcc hello.c -o hello
 
 notifications:
   email:
